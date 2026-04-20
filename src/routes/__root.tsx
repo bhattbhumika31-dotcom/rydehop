@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "rydehop" },
+      { name: "description", content: "RydeHop is a high-fidelity mobile-first prototype designed to solve the \"last-mile\" commute problem for college students. Unlike traditional taxi apps, RydeHop" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "rydehop" },
+      { property: "og:description", content: "RydeHop is a high-fidelity mobile-first prototype designed to solve the \"last-mile\" commute problem for college students. Unlike traditional taxi apps, RydeHop" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "rydehop" },
+      { name: "twitter:description", content: "RydeHop is a high-fidelity mobile-first prototype designed to solve the \"last-mile\" commute problem for college students. Unlike traditional taxi apps, RydeHop" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b7a5a634-748c-40c9-96c1-7aad3cfb0875/id-preview-9fe03288--0109cd99-ab63-46fe-9098-b6054e1e5f97.lovable.app-1776699957020.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b7a5a634-748c-40c9-96c1-7aad3cfb0875/id-preview-9fe03288--0109cd99-ab63-46fe-9098-b6054e1e5f97.lovable.app-1776699957020.png" },
     ],
     links: [
       {
