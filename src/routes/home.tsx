@@ -31,7 +31,7 @@ function Home() {
             </div>
             <div>
               <p className="text-xs text-muted-foreground">Hey there 👋</p>
-              <p className="font-semibold text-foreground">Aanya</p>
+              <p className="font-semibold text-foreground">codHERS</p>
             </div>
           </div>
           <button className="w-11 h-11 rounded-full glass flex items-center justify-center shadow-card">

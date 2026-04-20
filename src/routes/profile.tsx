@@ -26,7 +26,7 @@ function Profile() {
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <p className="text-xl font-bold">Aanya Sharma</p>
+                <p className="text-xl font-bold">codHERS</p>
                 <ShieldCheck className="w-4 h-4" />
               </div>
               <p className="text-xs opacity-90">IIT Delhi · 2nd year · CSE</p>
