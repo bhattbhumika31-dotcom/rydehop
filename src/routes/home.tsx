@@ -40,14 +40,17 @@ function Home() {
         </div>
       </div>
 
-      {/* live ride pin example */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 z-10">
+      {/* live ride pins (visible above the bottom sheet) */}
+      <div className="absolute top-[22%] left-[28%] z-10">
         <div className="relative">
           <div className="absolute inset-0 rounded-full bg-primary/30 animate-pulse-glow" style={{ width: 60, height: 60, transform: 'translate(-30px, -30px)' }} />
           <div className="w-12 h-12 rounded-full bg-sunset flex items-center justify-center shadow-glow border-4 border-white">
-            <span className="text-white text-xl">🚗</span>
+            <span className="text-xl">🚗</span>
           </div>
         </div>
+      </div>
+      <div className="absolute top-[26%] right-[18%] z-10">
+        <div className="w-10 h-10 rounded-full bg-card shadow-soft border-2 border-primary flex items-center justify-center text-base">🛵</div>
       </div>
 
       {/* bottom sheet */}

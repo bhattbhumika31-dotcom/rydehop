@@ -35,7 +35,7 @@ function Profile() {
           </div>
         </div>
 
-        <div className="flex-1 overflow-y-auto px-5 -mt-12 pb-28 no-scrollbar">
+        <div className="flex-1 overflow-y-auto px-5 -mt-12 pb-28 no-scrollbar relative z-10">
           {/* impact card */}
           <div className="bg-card rounded-3xl p-5 shadow-card grid grid-cols-3 gap-2 text-center">
             <div>
