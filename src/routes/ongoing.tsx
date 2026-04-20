@@ -48,17 +48,17 @@ function Ongoing() {
           <div className="h-full w-[68%] bg-sunset rounded-full" />
         </div>
 
-        <div className="mx-6 mt-5 p-4 rounded-2xl bg-secondary/60 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[oklch(0.85_0.16_70)] to-[oklch(0.72_0.19_35)] flex items-center justify-center text-white font-bold">
+        <div className="mx-6 mt-5 p-4 rounded-2xl bg-secondary/60 flex items-center justify-between gap-3">
+          <div className="flex items-center gap-3 min-w-0 flex-1">
+            <div className="w-12 h-12 shrink-0 rounded-2xl bg-gradient-to-br from-[oklch(0.85_0.16_70)] to-[oklch(0.72_0.19_35)] flex items-center justify-center text-white font-bold">
               R
             </div>
-            <div>
-              <p className="font-semibold text-sm">Riya is driving</p>
-              <p className="text-xs text-muted-foreground">Activa · DL 8S AB 1234</p>
+            <div className="min-w-0">
+              <p className="font-semibold text-sm truncate">Riya is driving</p>
+              <p className="text-xs text-muted-foreground truncate">Activa · DL 8S AB 1234</p>
             </div>
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 shrink-0">
             <Link to="/chat" className="w-10 h-10 rounded-full bg-card shadow-card flex items-center justify-center">
               <MessageCircle className="w-4 h-4" />
             </Link>
