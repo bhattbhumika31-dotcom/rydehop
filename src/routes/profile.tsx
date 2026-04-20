@@ -22,11 +22,11 @@ function Profile() {
           </div>
           <div className="px-6 mt-6 flex items-center gap-4 text-white">
             <div className="w-20 h-20 rounded-3xl glass-dark flex items-center justify-center text-3xl font-bold border-2 border-white/40">
-              A
+              C
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <p className="text-xl font-bold">Aanya Sharma</p>
+                <p className="text-xl font-bold">codHERS</p>
                 <ShieldCheck className="w-4 h-4" />
               </div>
               <p className="text-xs opacity-90">IIT Delhi · 2nd year · CSE</p>
