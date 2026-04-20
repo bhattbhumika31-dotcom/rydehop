@@ -5,7 +5,7 @@ import { BottomNav } from "@/components/BottomNav";
 import { ArrowLeft, Send, Smile } from "lucide-react";
 
 export const Route = createFileRoute("/chat")({
-  component: Chat;
+  component: Chat,
 });
 
 const msgs = [
