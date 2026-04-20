@@ -29,7 +29,7 @@ function Profile() {
                 <p className="text-xl font-bold">codHERS</p>
                 <ShieldCheck className="w-4 h-4" />
               </div>
-              <p className="text-xs opacity-90">IIT Delhi · 2nd year · CSE</p>
+              <p className="text-xs opacity-90">Graphic Era · 2nd year · CSE</p>
               <p className="text-xs opacity-90 mt-0.5">★ 4.92 · 38 hops shared</p>
             </div>
           </div>
