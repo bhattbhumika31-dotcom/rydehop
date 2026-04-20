@@ -27,7 +27,7 @@ function Home() {
         <div className="px-5 pt-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-11 h-11 rounded-full bg-sunset flex items-center justify-center text-white font-bold shadow-soft">
-              A
+              C
             </div>
             <div>
               <p className="text-xs text-muted-foreground">Hey there 👋</p>
